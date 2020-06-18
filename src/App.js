@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 /*
   Assignment:
@@ -38,9 +38,8 @@ function App(props) {
         <li>Halwa</li>
       </ul>
       </td></tr></table>
-      You visited {props.visits_yr_1} times last year and {props.visits_yr_2} 
-      times this year. <u>So overall you have 
-      made {props.visits_yr_1+props.visits_yr_2} visits.</u>
+      You visited {props.visits_yr_1} times last year and {props.visits_yr_2} times 
+      this year. <u>So overall you have made {props.visits_yr_1+props.visits_yr_2} visits.</u>
     </div>
   );
 }
